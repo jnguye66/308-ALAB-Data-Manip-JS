@@ -88,6 +88,9 @@ console.log(myIsOver25); // Originally will print out 'true,' because none of th
 
 // Setup
 let totalDistance = 1500;
+let mph1 = 55;
+let mph2 = 60;
+let mph3 = 75;
 let mpg55 = 30; // at 55mph, 30mpg
 let mpg60 = 28; // at 60mph, 28mpg
 let mpg75 = 23; // at 75mph, 23mpg
@@ -110,6 +113,15 @@ let spending3 = gallons3 * gasPrice;
 
 console.log('\nAt 55mph, money required: $' + spending1 + '. \n' + 
             'At 60mph, money required: $' + spending2 + '. \n' + 
-            'At 75mph, money required: $' +  spending3 + '. ');
+            'At 75mph, money required: $' +  spending3 + '. \n' +
+            'Will not be able to afford going at 75mph.');
+console.log()
 
 // 3. How long will the trip take, in hours?
+let hours1 = 1500 / mph1;
+let hours2 = 1500 / mph2;
+let hours3 = 1500 / mph3;
+
+console.log('\nAt 55mph, hours required: ' + hours1 + '. \n' + 
+            'At 60mph, hours required: ' + hours2 + '. \n' + 
+            'At 75mph, hours required: ' +  hours3 + '. ');
