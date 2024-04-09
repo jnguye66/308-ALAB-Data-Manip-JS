@@ -115,7 +115,6 @@ console.log('\nAt 55mph, money required: $' + spending1 + '. \n' +
             'At 60mph, money required: $' + spending2 + '. \n' + 
             'At 75mph, money required: $' +  spending3 + '. \n' +
             'Will not be able to afford going at 75mph.');
-console.log()
 
 // 3. How long will the trip take, in hours?
 let hours1 = 1500 / mph1;
@@ -125,3 +124,6 @@ let hours3 = 1500 / mph3;
 console.log('\nAt 55mph, hours required: ' + hours1 + '. \n' + 
             'At 60mph, hours required: ' + hours2 + '. \n' + 
             'At 75mph, hours required: ' +  hours3 + '. ');
+
+// 4. Compare the reesults when traveling at an average of 55, 60, and 75 mph. Which makes the most sense for the trip?
+console.log('The average speed that makes the most sense to go at for this trip would be 60mph. It gives a balance between spending gas money and making the trip in a somewhat reasonable amount of time.')
