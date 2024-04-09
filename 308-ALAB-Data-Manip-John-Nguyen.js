@@ -104,5 +104,12 @@ console.log('\nAt 55mph, gallons required: ' + gallons1 + '. \n' +
             'At 75mph, gallons required: ' + gallons3 + '. ');
 
 // 2. Will your budget be enough to cover the fuel expense?
+let spending1 = gallons1 * gasPrice;
+let spending2 = gallons2 * gasPrice;
+let spending3 = gallons3 * gasPrice;
+
+console.log('\nAt 55mph, money required: $' + spending1 + '. \n' + 
+            'At 60mph, money required: $' + spending2 + '. \n' + 
+            'At 75mph, money required: $' +  spending3 + '. ');
 
 // 3. How long will the trip take, in hours?
