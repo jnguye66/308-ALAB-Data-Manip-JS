@@ -45,7 +45,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
 ////////////////////////////////////////////////////////////////////////
-// HW Problems
+// HW Problems Part 1
 
 // 1. Check if all numbers are divisible by 5. Cashe the result in a variable
 let isDivisibleBy5;
@@ -84,3 +84,25 @@ const myIsOver25 = !((n1 > 25) || (n2 > 25) || (n3 > 25) || (n4 > 25)); // Now i
 console.log(myIsOver25); // Originally will print out 'true,' because none of the numbers are above 25 currently. Once a number is changed to be over 25, will become false. 
 
 ////////////////////////////////////////////////////////////////////////
+// HW Problems Part 2 
+
+// Setup
+let totalDistance = 1500;
+let mpg55 = 30; // at 55mph, 30mpg
+let mpg60 = 28; // at 60mph, 28mpg
+let mpg75 = 23; // at 75mph, 23mpg
+let budget = 175;
+let gasPrice = 3;
+
+// 1. How many gallons of fuel will you need for the entire trip?
+let gallons1 = 1500 / mpg55;
+let gallons2 = 1500 / mpg60;
+let gallons3 = 1500 / mpg75;
+
+console.log('\nAt 55mph, gallons required: ' + gallons1 + '. \n' + 
+            'At 60mph, gallons required: ' + gallons2 + '. \n' + 
+            'At 75mph, gallons required: ' + gallons3 + '. ');
+
+// 2. Will your budget be enough to cover the fuel expense?
+
+// 3. How long will the trip take, in hours?
